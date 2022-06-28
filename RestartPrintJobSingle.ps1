@@ -1,4 +1,5 @@
-# Restarts specific printjob on specific server
+# Restarts specific printjob on specific server.
+# Checks next printjob in queue and restarts printjob if status contains Error.
 
 $Printer = "Printer name"
 $Computer = "Server/computer name"
